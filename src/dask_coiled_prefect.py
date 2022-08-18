@@ -59,7 +59,7 @@ software_env = "kiwipycon-tutorial"
 #  setup a docker image with these pip requirements
 coiled.create_software_environment(
     name=software_env,
-    pip="requirements.txt",
+    pip="requirements-coiled.txt",
 )
 
 # instance = ["t3.medium", "t3.xlarge" ]
