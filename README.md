@@ -2,7 +2,8 @@
 
 Two hour tutorial at Kiwi Pycon 2022 in Ōtautahi (Christchurch) New Zealand.
 
-For beginners - covering the foundations needed to be effective with running computation across many CPUs or machines.
+Covers the foundations needed to be effective with running intelligent computation across many workers.
+
 
 ## Outcomes
 
@@ -37,16 +38,25 @@ Options for distributing computation on a single machine with the Python standar
 - 3 short exercises & one large exercise,
 
 
-### 3. Many Machines - [read in Binder](https://mybinder.org/v2/gh/ADGEfficiency/intro-to-distributed-computation-in-python/HEAD?labpath=notebooks%2F3-many-machines.ipynb)
+### 3. Many Machines - [read in binder](https://mybinder.org/v2/gh/ADGEfficiency/intro-to-distributed-computation-in-python/HEAD?labpath=notebooks%2F3-many-machines.ipynb)
 
 *10 min theory, 15 min demonstration, balance practical*
 
 - options for distributing computation on the cloud (many machines) in Python, 
-- demonstration of distributing compute over an AWS EC2 cluster with Dask, Coiled & Prefect.
+- demonstration of distributing compute over an AWS EC2 cluster with Dask, Coiled & Prefect,
+- note that this notebook `3-many-machines` will not run in Binder - you can run locally combined with a `$ pip install -r requirements-coiled.txt`.
 
 
 ## Setup
 
+We are targeting three environments:
+
+- `requirements.txt` = Binder (important to not install Dask),
+- `requirements-coiled.txt` = Coiled + local development (everything).
+
+Python version is important for Dask/Coiled.
+
 ```shell
-$ make
+$ conda create -n pycon python=3.8.13
+$ make setup
 ```

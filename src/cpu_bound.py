@@ -2,6 +2,7 @@ import pathlib
 import numpy as np
 import scipy
 import cv2
+import multiprocessing
 
 
 def cpu_compute_task(image, channel=2):
