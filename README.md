@@ -5,6 +5,11 @@ Two hour tutorial at Kiwi Pycon 2022 in Ōtautahi (Christchurch) New Zealand.
 Covers the foundations needed to be effective with running intelligent computation across many workers.
 
 
+## About Me
+
+Senior Data Scientist @ Orkestra Energy - live in Christchurch - [LinkedIn](https://www.linkedin.com/in/adgefficiency/) - [blog](https://adgefficiency.com/).
+
+
 ## Outcomes
 
 What you will get out of this tutorial:
