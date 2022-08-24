@@ -2,12 +2,12 @@
 
 Two hour tutorial at Kiwi Pycon 2022 in Ōtautahi (Christchurch) New Zealand.
 
-Covers the foundations needed to be effective with running intelligent computation across many workers.
+Covers the foundations needed to be effective with running computation across many workers.
 
 
 ## About Me
 
-Senior Data Scientist @ Orkestra Energy - live in Christchurch - [LinkedIn](https://www.linkedin.com/in/adgefficiency/) - [blog](https://adgefficiency.com/).
+Senior Data Scientist @ Orkestra Energy - I live in Christchurch - [LinkedIn](https://www.linkedin.com/in/adgefficiency/) - [blog](https://adgefficiency.com/).
 
 
 ## Outcomes
@@ -15,10 +15,10 @@ Senior Data Scientist @ Orkestra Energy - live in Christchurch - [LinkedIn](http
 What you will get out of this tutorial:
 
 - functional programming fundamentals,
-- why & how to use `multiprocessing` and `asyncio`,
 - concurrency, parallelism & asynchrony,
-- understand the ecosystem for distributing compute over many machines in Python,
-- know how to deploy a Dask cluster on EC2.
+- why & how to use `multiprocessing` and `asyncio`,
+- introduction to the ecosystem for distributing compute over many machines in Python,
+- demonstration of using an EC2/Dask/Coiled/Prefect stack to deploy a Dask cluster to EC2.
 
 
 ## Agenda
@@ -54,14 +54,13 @@ Options for distributing computation on a single machine with the Python standar
 
 ## Setup
 
-We are targeting three environments:
+We are targeting two environments:
 
-- `requirements.txt` = Binder (important to not install Dask),
+- `requirements.txt` = Binder (important to not install Dask in Binder),
 - `requirements-coiled.txt` = Coiled + local development (everything).
 
 Python version is important for Dask/Coiled.
 
 ```shell
-$ conda create -n pycon python=3.8.13
 $ make setup
 ```
