@@ -1,5 +1,14 @@
 # Distributed Computation in Python
 
+![](./assets/lyttleton.jpg)
+
+<center>
+<i>Lyttleton Harbour, N.Z., Inside the Breakwater - John Gib - 1886</i>
+<br />
+<i>Photographed at the Christchurch Art Gallery in 2016</i>
+</center>
+<br />
+
 Two hour tutorial at Kiwi Pycon 2022 in Ōtautahi (Christchurch) New Zealand.
 
 Covers the foundations needed to be effective with running computation across many workers.
@@ -10,11 +19,10 @@ Covers the foundations needed to be effective with running computation across ma
 Senior Data Scientist @ Orkestra Energy - I live in Christchurch - [LinkedIn](https://www.linkedin.com/in/adgefficiency/) - [blog](https://adgefficiency.com/).
 
 
-## Outcomes
+## Outcomes Of This Tutorial
 
-What you will get out of this tutorial:
-
-- functional programming fundamentals,
+- functional programming fundamentals - `map`, `filter`, `functools.reduce`,
+- CPU cores, threads & processes,
 - concurrency, parallelism & asynchrony,
 - why & how to use `multiprocessing` and `asyncio`,
 - introduction to the ecosystem for distributing compute over many machines in Python,
@@ -23,7 +31,7 @@ What you will get out of this tutorial:
 
 ## Agenda
 
-### 1. Functional programming - [run in binder](https://mybinder.org/v2/gh/ADGEfficiency/intro-to-distributed-computation-in-python/HEAD?labpath=notebooks%2F1-functional-programming.ipynb)
+### 1. Functional Programming - [run in binder](https://mybinder.org/v2/gh/ADGEfficiency/intro-to-distributed-computation-in-python/HEAD?labpath=notebooks%2F1-functional-programming.ipynb)
 
 *20 min theory, 20 min practical*
 
@@ -54,12 +62,15 @@ Options for distributing computation on a single machine with the Python standar
 
 ## Setup
 
-We are targeting two environments:
+As this repo targets two environments (Binder & Coiled):
 
 - `requirements.txt` = Binder (important to not install Dask in Binder),
-- `requirements-coiled.txt` = Coiled + local development (everything).
+- `requirements-coiled.txt` = Coiled (will run on EC2 instances),
+- `requirements-coiled.txt` = local development.
 
 Python version is important for Dask/Coiled.
+
+To setup Python locally:
 
 ```shell
 $ make setup
