@@ -2,12 +2,16 @@
 
 ![](./assets/lyttleton.jpg)
 
+<div>
 <center>
 <i>Lyttleton Harbour, N.Z., Inside the Breakwater - John Gib - 1886</i>
 <br />
 <i>Photographed at the Christchurch Art Gallery in 2016</i>
 </center>
 <br />
+</div>
+
+---
 
 Two hour tutorial at Kiwi Pycon 2022 in Ōtautahi (Christchurch) New Zealand.
 
