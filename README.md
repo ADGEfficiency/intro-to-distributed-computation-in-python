@@ -13,7 +13,7 @@
 
 ---
 
-Two hour tutorial at Kiwi Pycon 2022 in Ōtautahi (Christchurch) New Zealand.
+Two hour tutorial at Kiwi Pycon 2022 in Ōtautahi (Christchurch) New Zealand - [tutorial recording](https://www.youtube.com/watch?v=x_NBHIi-Yf0).
 
 Covers the foundations needed to be effective with running computation across many workers.
 
